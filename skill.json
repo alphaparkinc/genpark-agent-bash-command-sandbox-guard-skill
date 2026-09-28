@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-bash-command-sandbox-guard-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency AST & heuristic bash command sandbox guard blocking destructive system mutations, path traversals, and reverse shells.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "bash-guard",
+    "sandbox",
+    "agent-safety",
+    "command-filter",
+    "security-guardrail",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "inspect_command",
+      "description": "Inspect bash or powershell command for security violations and destructive patterns."
+    },
+    {
+      "name": "run_benchmark_bash_guard",
+      "description": "Run bash command security benchmark."
+    }
+  ]
+}
